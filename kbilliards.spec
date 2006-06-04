@@ -23,7 +23,7 @@ Ein lustiger Billiard Simulator unter KDE.
 
 %description -l pl
 Zabawny symulator bilarda pod KDE.
- 
+
 %prep
 %setup -q
 
@@ -58,5 +58,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog COPYING INSTALL NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/apps/kbilliards*
-%{_datadir}/applications/kbilliards.desktop
+%{_desktopdir}/kbilliards.desktop
 %{_iconsdir}/hicolor/*/*/*.png
