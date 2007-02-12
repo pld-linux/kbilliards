@@ -1,6 +1,6 @@
 Summary:	kbilliards - a funny billiards simulator
-Summary(de.UTF-8):   kbilliards - ein lustiger Billiard Simulator
-Summary(pl.UTF-8):   kbilliards - zabawny symulator bilarda
+Summary(de.UTF-8):	kbilliards - ein lustiger Billiard Simulator
+Summary(pl.UTF-8):	kbilliards - zabawny symulator bilarda
 Name:		kbilliards
 Version:	0.8.7
 Release:	0.1
