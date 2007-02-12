@@ -1,6 +1,6 @@
 Summary:	kbilliards - a funny billiards simulator
-Summary(de):	kbilliards - ein lustiger Billiard Simulator
-Summary(pl):	kbilliards - zabawny symulator bilarda
+Summary(de.UTF-8):   kbilliards - ein lustiger Billiard Simulator
+Summary(pl.UTF-8):   kbilliards - zabawny symulator bilarda
 Name:		kbilliards
 Version:	0.8.7
 Release:	0.1
@@ -18,10 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A funny billiards simulator game, under KDE.
 
-%description -l de
+%description -l de.UTF-8
 Ein lustiger Billiard Simulator unter KDE.
 
-%description -l pl
+%description -l pl.UTF-8
 Zabawny symulator bilarda pod KDE.
 
 %prep
