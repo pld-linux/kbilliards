@@ -3,11 +3,14 @@ Summary(de.UTF-8):	kbilliards - ein lustiger Billiard Simulator
 Summary(pl.UTF-8):	kbilliards - zabawny symulator bilarda
 Name:		kbilliards
 Version:	0.8.7
-Release:	0.1
+Release:	0.5
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://www.hostnotfound.it/kbilliards/%{name}-%{version}.tar.bz2
-# Source0-md5:	e84ce7ba32c8e49ce0843e6f119446f4
+Source0:	http://www.hostnotfound.it/kbilliards/%{name}-%{version}b.tar.bz2
+# Source0-md5:	f773a0a860ac0cb678f5e736860a0fe9
+Patch0:		%{name}-rand.patch
+Patch1:		%{name}-am.patch
+Patch2:		kde-ac260.patch
 URL:		http://www.hostnotfound.it/kbilliards.php
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -25,7 +28,10 @@ Ein lustiger Billiard Simulator unter KDE.
 Zabawny symulator bilarda pod KDE.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}b
+%patch0 -p1
+%patch1 -p1
+%patch2 -p1
 
 %build
 cp -f /usr/share/automake/config.sub admin
