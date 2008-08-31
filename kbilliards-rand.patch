@@ -1,0 +1,10 @@
+--- kbilliards-0.8.7/src/aiplayer.cpp.orig	2008-08-31 18:28:53.000000000 +0200
++++ kbilliards-0.8.7/src/aiplayer.cpp	2008-08-31 18:31:49.000000000 +0200
+@@ -19,6 +19,7 @@
+  ***************************************************************************/
+ #include "aiplayer.h"
+ #include <iostream>
++#include <cstdlib> // for rand()
+ #include <sstream>
+ 
+ 
